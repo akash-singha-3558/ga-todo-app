@@ -4,6 +4,7 @@ on:
    push : 
       branches : ["main"]
     # Allows us to run workflow from UI
+    workflow-dispatch :
 permissions:
   contents: read
   pages: write
